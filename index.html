@@ -1,0 +1,259 @@
+
+<!doctype html>
+<html lang="en">
+<head>
+    <meta charset="utf-8"/>
+    <meta name="viewport" content="width=device-width, initial-scale=1"/>
+    <title>SkillValue — the mini-foxtrick tool for Hattrick</title>
+    <meta name="description"
+          content="SkillValue adds powerful transfer filters, an undervalued detector, a compact player panel, and a league schedule for Hattrick.">
+
+    <!-- OG/Twitter (по желание смени пътя) -->
+    <meta property="og:title" content="SkillValue — Smart tools for Hattrick transfers"/>
+    <meta property="og:description"
+          content="Undervalued filter + Transfer Compare, compact player panel, lineup helper, and league schedule."/>
+    <meta property="og:image" content="/static/images/icon.png"/>
+    <meta property="og:type" content="website"/>
+    <meta property="og:url" content="/"/>
+    <meta name="twitter:card" content="summary_large_image"/>
+
+    <link rel="icon" href="/static/images/icon.png">
+    <link rel="apple-touch-icon" href="/static/images/icon.png">
+    <link rel="stylesheet" href="/static/css/styles.css">
+</head>
+<body>
+<header class="site-header">
+    <div class="wrap header-inner">
+        <a class="brand" href="/">
+      <span class="brand-pill">
+        <svg aria-hidden="true" viewBox="0 0 24 24" class="brand-star">
+          <path d="M12 2l2.6 5.3 5.8.9-4.2 4.1 1 5.8-5.2-2.7-5.2 2.7 1-5.8L3.6 8.2l5.8-.9L12 2z"></path>
+        </svg>
+        SkillValue
+      </span>
+        </a>
+        <nav class="top-nav">
+            <a href="#features">Features</a>
+            <a href="#whats-new">What’s new</a>
+            <a href="#screens">Screenshots</a>
+            <a href="#how">How it works</a>
+            <a class="gh" href="https://github.com/hypnodrum" target="_blank" rel="noopener">Author's GitHub</a>
+        </nav>
+    </div>
+</header>
+
+<main>
+    
+    <!-- HERO -->
+    <section class="hero">
+        <div class="wrap hero-inner">
+            <div class="hero-copy">
+                <h1>SkillValue is your Hattrick sidekick</h1>
+                <p class="lead">
+                    Sublevel calculator, smart lineup tool, advanced transfer filter and more. Less guesswork, more
+                    winning.
+                </p>
+                <div class="cta-row" id="install">
+                    <a class="btn primary"
+                       href="https://chromewebstore.google.com/detail/skillvalue/ljcbldpcipehoifnaoeefpenbiddpbec"
+                       target="_blank" rel="noopener">
+                        Install for Chrome
+                    </a>
+                    <a class="btn donate-btn"
+                       href="https://addons.mozilla.org/en-US/firefox/addon/skillvalue/" target="_blank" rel="noopener">
+                        Install for Firefox
+                    </a>
+                    <a class="btn light" href="https://www.hattrick.org/goto.ashx?path=/Club/?TeamID=660799"
+                       target="_blank" rel="noopener">
+                        Support my team
+                    </a>
+                </div>
+                <p class="micro">
+                    Free to install. No tracking. Works with <a href="http://www.darkreader.org" target="_blank"
+                                                                rel="noopener"> Dark Reader.</a>
+                    <a href="#privacy">Privacy &amp; permissions</a>
+                </p>
+            </div>
+            <div class="hero-media">
+                <img src="/static/images/logo.png" alt="SkillValue in action">
+            </div>
+        </div>
+    </section>
+
+    <!-- FEATURES -->
+    <section id="features" class="features">
+        <div class="wrap">
+            <h2>Highlights</h2>
+            <div class="grid">
+                <article class="card">
+                    <h3>SkillValue button 🧮</h3>
+                    <p> Extract your player’s visible data (just DOM scraping) and estimate your player’s main skill
+                        sublevel using the secret recipe of the “unwritten rules".
+                        Present it in a clean popup. The closer the player is to (or past) their birthday, the more
+                        accurate the result will be.</p>
+
+                </article>
+                <article class="card">
+                    <h3>Transfer List Filter 🔍</h3>
+                    <p>Filter by main skill sublevel, HTMS Ability &amp; Potential, plus a one-click
+                        <em>Undervalued</em> mode (Transfer compare price &gt; Ask or bid sum) with live badges.</p>
+                </article>
+                <article class="card">
+                    <h3>LineUp Tool ⚽</h3>
+                    <p>Uses skills + form, loyalty, experience to propose your best playable formation.
+                        One-click formation switching, clear total score, and who fits where.
+                        Requires the right-side player list to be expanded.
+                        Currently assumes normal roles (no individual orders; sub-levels not factored into lineup
+                        scoring).</p>
+                </article>
+                <article class="card">
+                    <h3>Compact Player Panel</h3>
+                    <p>Cleaner tables, smarter spacing, merged form/stamina values, and adaptive wage layout — all
+                        without breaking the original UI.</p>
+                </article>
+                <article class="card">
+                    <h3>League Schedule</h3>
+                    <p>New “League Schedule” box placed above Division Battle with upcoming fixtures for quick
+                        planning.</p>
+                </article>
+
+                <article class="card">
+                    <h3>Dark-mode aware</h3>
+                    <p class="micro">Automatically adapts to <a href="http://www.darkreader.org" target="_blank"
+                                                                rel="noopener"> Dark Reader.</a> or system dark mode.
+                        Everything remains legible and
+                        balanced.</p>
+                </article>
+            </div>
+        </div>
+    </section>
+
+    <!-- Requirements -->
+    <section id="whats-new" class="whats-new">
+        <div class="wrap">
+            <h2>Requirements</h2>
+            <ul class="changelog">
+                
+                    <li>You must be using the new Hattrick interface</li>
+                
+                    <li>It works in English (UK and US), Bulgarian, Spanish, Spanish (Latinoamericano and Rioplatense), Português, Português (Brazil), French, German, Italian, Polish, Dansk, Finnish, Czech, Magyar and Svenska language</li>
+                
+            </ul>
+        </div>
+    </section>
+
+    <!-- WHAT'S NEW -->
+    <section id="whats-new" class="whats-new">
+        <div class="wrap">
+            <h2>What’s new in v3.0</h2>
+            <ul class="changelog">
+                
+                    <li>Added support for the Dark Reader extension — if you have it installed, SkillValue will now also run in dark mode.</li>
+                
+                    <li>Fixed bugs with the Hungarian and Czech languages.</li>
+                
+            </ul>
+        </div>
+    </section>
+
+    <!-- SCREENSHOTS -->
+    <section id="screens" class="screens">
+        <div class="wrap">
+            <h2>Screenshots</h2>
+            <div class="shots">
+                <figure><img src="/static/images/screen_2.png" alt="Undervalued with TC badge"></figure>
+                <figure><img src="/static/images/screen_1.png" alt="Sublevel overlay"></figure>
+                <figure><img src="/static/images/screen_3.png" alt="Lineup Tool"></figure>
+            </div>
+        </div>
+    </section>
+
+    <!-- Overlay -->
+    <div id="imgOverlay" class="overlay" aria-hidden="true">
+        <button class="close" aria-label="Close" onclick="closeOverlay()">&times;</button>
+        <button class="nav prev" aria-label="Previous" onclick="navOverlay(-1)">&#10094;</button>
+        <img class="overlay-content" id="overlayImg" alt="">
+        <div id="overlayCaption"></div>
+        <button class="nav next" aria-label="Next" onclick="navOverlay(1)">&#10095;</button>
+    </div>
+
+
+    <!-- HOW IT WORKS -->
+    <section id="how" class="how">
+        <div class="wrap">
+            <h2>How it works</h2>
+            <ol class="steps">
+                <li>
+                    <strong>Install</strong>
+                    <ul>
+                        <li>
+                            <strong>In Chrome:</strong><br>
+                            Go to ⋮ > Extensions > Manage Extensions.<br>
+                            There you will see the SkillValue box with a toggle button — turn it on if it’s off.<br>
+                            Click the <em>Details</em> button, then select <em>Pin to toolbar</em>.<br>
+                            From the toolbar icon you can open the popup, which now also contains a direct link to
+                            <strong>Settings</strong>.
+                        </li>
+                        <li>
+                            <strong>In Mozilla Firefox:</strong><br>
+                            Click the ☰ (Menu) button > Add-ons and themes > Extensions.<br>
+                            Find SkillValue in the list and make sure it’s enabled (toggle switch).<br>
+                            Click <em>Preferences</em> (or <em>Manage</em>), then choose <em>Pin to toolbar</em>.<br>
+                            From the toolbar icon you can open the popup and access <strong>Settings</strong> directly.
+                        </li>
+                    </ul>
+                </li>
+                <li>
+                    <strong>Open</strong> Hattrick and go to Player's page for example. On the player's page you will
+                    find a green "SkillValue" button
+                </li>
+                <li>
+                    <strong>Click</strong> on the green SkillValue button on the player's page and "voila".
+                </li>
+            </ol>
+
+        </div>
+    </section>
+
+    <!-- DONATE -->
+    <section class="donate">
+        <div class="wrap">
+            <h2>Support development</h2>
+            <p>Like SkillValue? Help me keep it fast and compatible with new Hattrick layouts.</p>
+            <a class="btn donate-btn" href="https://buy.stripe.com/6oUdR9fAE9A31TW6e61sQ00" target="_blank"
+               rel="noopener">
+                Donate
+            </a>
+        </div>
+    </section>
+
+    <!-- PRIVACY -->
+    <section id="privacy" class="privacy">
+        <div class="wrap">
+            <h2>Privacy &amp; permissions</h2>
+            <p>SkillValue runs entirely in your browser. It does not collect browsing history, track usage, or send
+                player data to a server. It only needs access to Hattrick pages to improve layout and add UI
+                controls.</p>
+        </div>
+    </section>
+    <script src="/static/js/overlay.js"></script>
+
+</main>
+
+<footer class="site-footer">
+    <div class="wrap footer-inner">
+        <div>© <span id="year"></span> SkillValue</div>
+        <div class="links">
+            <a href="https://www.hattrick.org/goto.ashx?path=/Forum/Read.aspx?t=17652254" target="_blank"
+               rel="noopener">Forum</a>
+            <a href="https://www.hattrick.org/goto.ashx?path=/Forum/Read.aspx?t=17652256" target="_blank"
+               rel="noopener">Report an issue</a>
+        </div>
+    </div>
+</footer>
+
+<script>
+    document.getElementById('year').textContent = new Date().getFullYear();
+</script>
+</body>
+</html>
