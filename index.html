@@ -8,7 +8,6 @@
     <meta name="description"
           content="SkillValue adds powerful transfer filters, an undervalued detector, a compact player panel, and a league schedule for Hattrick.">
 
-    <!-- OG/Twitter (по желание смени пътя) -->
     <meta property="og:title" content="SkillValue — Smart tools for Hattrick transfers"/>
     <meta property="og:description"
           content="Undervalued filter + Transfer Compare, compact player panel, lineup helper, and league schedule."/>
@@ -145,14 +144,30 @@
     <!-- WHAT'S NEW -->
     <section id="whats-new" class="whats-new">
         <div class="wrap">
-            <h2>What’s new in v3.0</h2>
+            <h2>What’s new in v3.1</h2>
             <ul class="changelog">
-                
-                    <li>Added support for the Dark Reader extension — if you have it installed, SkillValue will now also run in dark mode.</li>
-                
-                    <li>Fixed bugs with the Hungarian and Czech languages.</li>
-                
+                    <li>Improved Transfer Search design</li>
+                        <li>Replaced the old text link with a diskette icon for saving search profiles.</li>
+                        <li>Clearer and more consistent input fields.</li>
+                        <li>New floating panel with two buttons (Search & Clear) that always stay visible.</li>
+                        <li>Added keyboard shortcuts: Alt+S for Search, Alt+C for Clear.</li>
+                    <li>Match orders – last match minutes</li>
+                        <li>Each player now shows a small icon with the minutes they played in the previous match.
+                            Colors are dynamic: from red → yellow → green depending on how many minutes were played.
+                            Important: this option only works if the player cards are expanded.</li>
+                    <li>Youth match orders – extended data</li>
+                        <li>The same “last match minutes” indicator is now available for youth players.</li>
+                        <li>Added a new card showing the player’s best performances in different positions: 
+                            includes position, stars, date, and minutes played. The date links directly to the match.
+                            The same here - it only works if the player cards are expanded.</li>
+                    <li>LineUp Tool toggle</li>
+                        <li>New option in Settings to enable/disable the LineUp Tool entirely.</li>
             </ul>
+            <div class="shots">
+                <figure><img src="/static/images/transfer_search.png" alt="Impruved Transfer search design"></figure>
+                <figure><img src="/static/images/extra_information.png" alt="position, stars, date, and minutes played are now shown"></figure>
+                <figure><img src="/static/images/settings.png" alt="Lineup Tool can be switche off now"></figure>
+            </div>
         </div>
     </section>
 
